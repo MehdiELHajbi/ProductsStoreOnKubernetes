@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: #{Build.Repository.Name}#:v1.#{Build.BuildId}#
+        image: elhajbimehdi/products-store-mvc:v1.#{Build.BuildId}#
         ports:
         - containerPort: 80
         resources:
